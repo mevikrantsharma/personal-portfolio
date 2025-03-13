@@ -251,6 +251,23 @@ h2 {
     align-items: center;
 }
 
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.social-icons img{
+    max-height: 25px;
+    filter: invert(50%);
+    
+}
+
+.social-icons img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 20px rgba(255, 0, 0, 0.2);
+}
+
 /* Footer */
 footer {
     text-align: center;
