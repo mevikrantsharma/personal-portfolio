@@ -142,7 +142,7 @@ h2 {
         font-size: 1rem;
         display: grid;
         grid-template-columns: 2fr 1fr;
-        gap: 10px;
+        gap: 5px;
         height: 400px;
         width: 80%;
         margin: auto;
