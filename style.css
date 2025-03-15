@@ -90,6 +90,23 @@ nav ul li a:hover {
     font-weight: 400;
 }
 
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+   
+    margin-top: 2rem;
+}
+.social-icons img{
+    max-height: 25px;
+    filter: invert(90%);
+    
+}
+
+.social-icons img:hover {
+    transform: scale(1.3)
+}
+
 /* Sections */
 section {
     height: 100vh;
@@ -249,22 +266,6 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.social-icons{
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    
-}
-.social-icons img{
-    max-height: 25px;
-    filter: invert(90%);
-    
-}
-
-.social-icons img:hover {
-    transform: scale(1.3)
 }
 
 /* Footer */
